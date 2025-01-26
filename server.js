@@ -1,4 +1,4 @@
-const port = 2014
+const port = 2030
 const express = require("express")
 
 const router = require("./router/studentRouter")
