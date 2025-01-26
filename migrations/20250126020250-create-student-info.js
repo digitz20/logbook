@@ -7,7 +7,6 @@ module.exports = {
         allowNull: false,
         primaryKey: true,
         type: Sequelize.UUID,
-        unique: true
       },
       studentName: {
         type: Sequelize.STRING
