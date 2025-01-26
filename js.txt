@@ -1,0 +1,3 @@
+npx sequelize-cli model:generate --name studentInfo --attributes studentName:string,studentClass:string,studentAge:integer,studentemail:string
+
+npx sequelize-cli model:generate --name studentAward --attributes studentId:string,awardName:string,studentRating:integer
