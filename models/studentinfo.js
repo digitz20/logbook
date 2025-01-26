@@ -10,6 +10,9 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
+      studentInfo.associate=(models)=>{
+        studentInfo.hasOne(models.studentAward,{foreignKey:"studentId",as:"studentAward"})
+      }
       // define association here
     }
   }
