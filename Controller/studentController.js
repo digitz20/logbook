@@ -27,7 +27,13 @@ exports.createStudent = async(req, res) => {
     }
 }
 
-
+// "production": {
+//     "username": "sql12759579",
+//     "password": "RBuaGveAic",
+//     "database": "sql12759579",
+//     "host": "sql12.freesqldatabase.com",
+//     "dialect": "mysql"
+//   }
 
 
 
