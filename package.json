@@ -8,12 +8,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
     "nodemon": "^3.1.9",
     "sequelize": "^6.37.5",
     "sequelize-cli": "^6.6.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitz20/logbook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitz20/logbook/issues"
+  },
+  "homepage": "https://github.com/digitz20/logbook#readme",
+  "description": ""
 }
