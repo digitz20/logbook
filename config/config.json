@@ -10,14 +10,14 @@
     "username": "sql12759579",
     "password": "RBuaGveAic",
     "database": "sql12759579",
-    "host": "sql8.freesqldatabase.com",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   },
   "production": {
     "username": "sql12759579",
     "password": "RBuaGveAic",
     "database": "sql12759579",
-    "host": "sql8.freesqldatabase.com",
+    "host": "sql12.freesqldatabase.com",
     "dialect": "mysql"
   }
 }
