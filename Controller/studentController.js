@@ -20,7 +20,6 @@ exports.createStudent = async(req, res) => {
         const newData = await studentInfo.create(studentData)
 
         res.status(201).json({message: 'student successfully created', data: newData})
-
     } catch (error) {
         res.status(500).json({message: 'Error creating student', error:(emailError)})
     }
