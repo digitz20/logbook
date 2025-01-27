@@ -1,7 +1,8 @@
 {
   "name": "logbook",
   "version": "1.0.0",
-  "main": "logbook.js",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
     "dev": "nodemon server.js"
   },
